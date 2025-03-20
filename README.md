@@ -36,7 +36,7 @@
 - **Database:** PostgreSQL  
 - **Logging & Monitoring:** Custom Request Logging Filter  
 - **APIs & Integrations:** Stripe, Amazon S3, Rapid API (Geolocation)  
-- **Infrastructure:** Kubernetes (Multiple Pods), Pessimistic Locking  
+- **Infrastructure:** Kubernetes, AWS, PostgresQL 
 
 ---
 
