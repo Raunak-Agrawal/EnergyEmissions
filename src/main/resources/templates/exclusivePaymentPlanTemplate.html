@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Exclusive plan support</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+
+<div>
+    <h4>Exclusive plan support</h4>
+</div>
+<div>
+    <p>Below company has requested support for exclusive payment plan&nbsp;</p>
+</div>
+<div>
+    <p>User email: <span th:text="${userEmail}"></span></p>
+    <p>Company Name: <span th:text="${companyName}"></span></p>
+    <p>Country: <span th:text="${country}"></span></p>
+    <p>Plan Type: <span th:text="Exclusive"></span></p>
+    <p>Plan Interval: <span th:text="${planInterval}"></span></p>
+</div>
+
+</body>
+
+</html>
